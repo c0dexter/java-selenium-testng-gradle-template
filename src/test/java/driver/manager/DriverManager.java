@@ -7,7 +7,7 @@ import org.openqa.selenium.WebDriver;
 public class DriverManager {
 
     private static WebDriver driver;
-    private static final BrowserType BROWSER_TYPE = BrowserType.FIREFOX; // TODO: change browser here before test launch
+    private static final BrowserType BROWSER_TYPE = BrowserType.CHROME; // TODO: change browser here before test launch
 
     private DriverManager() {
     }
