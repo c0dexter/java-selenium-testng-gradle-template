@@ -7,6 +7,8 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import page.objects.BasePage;
 
+import static navigation.ApplicationUrls.APPLICATION_URL;
+
 public class TestBase extends BasePage {
 
     protected WebDriver driver;
@@ -15,7 +17,7 @@ public class TestBase extends BasePage {
     public void beforeTest() {
         driver = DriverManager.getWebDriver();
         DriverUtils.setInitialConfiguration();
-        DriverUtils.navigateToPage("http://automationpractice.com/index.php");
+        DriverUtils.navigateToPage(APPLICATION_URL);
     }
 
     @AfterMethod
