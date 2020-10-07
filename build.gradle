@@ -23,7 +23,7 @@ repositories {
 
 ext {
     testng_version = "6.14.3"
-    assertj_version = "3.12.2"
+    assertj_version = "3.17.2"
     selenium_version = "3.141.5"
     lombok_version = "1.16.20"
     log4j_api_version = "2.13.3"
